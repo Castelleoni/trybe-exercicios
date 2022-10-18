@@ -1,0 +1,24 @@
+div:hover{
+    background-color: cyan;
+}
+.primaria{
+    color: red;
+}
+.secundaria{
+    color:violet
+}
+.complementar{
+    color: gold;
+}
+.escura{
+    color: darkgreen;
+}
+.clara{
+    color: aquamarine;
+}
+.impar{
+    font-style: italic;
+}
+.terceira{
+    font-size: 2em;
+}
