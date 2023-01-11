@@ -1,4 +1,9 @@
 import { nanoid } from 'nanoid'
 
-const randomPassword = nanoid()
-console.log(randomPassword)
+const passwordBtEl = document.querySelector('button')
+const displayPassword = document.querySelector('h2')
+
+passwordBtEl.addEventListener('click', () => {
+    const randomPassword = nanoid();
+    displayPassword.innerHTML = randomPassword;
+})
